@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.5">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="use prefs" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1440, 900]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="exam_trainer" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="welcome_screen">
+      <TextComponent name="text_welcome_sreen">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_welcome_sreen" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for participating in this study. It has three parts. Part one begins soon." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="welcome_key">
+        <Param val="&quot;t&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="welcome_key" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="blank_500">
+      <TextComponent name="text_blank_500">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_blank_500" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="0.5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instructions_vignette">
+      <CodeComponent name="code_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="condition = np.random.choice(('dutch','english'))" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="condition = np.random.choice([&quot;dutch&quot;, &quot;english&quot;]);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text">
+        <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;You will see a series of sentences in &quot; +condition +&quot;.\nImagine yourself as a witness to the actions in each one.\nPlease rate how MORALLY WRONG each action was, using a 4-point scale ranging from: &quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="slider">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nNot Morally Wrong&quot;, &quot;4\nExtremely Morally Wrong&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <KeyboardComponent name="key_resp">
+        <Param val="'b', 'y', 'g', 'r'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Please use your right hand for the ratings. Your index finger equals one, your pinky the four." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="instructions_SMID">
+      <TextComponent name="text_SMID">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_SMID" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for answering the questions on the vignettes. The first part of the study is done.&amp;#10;&amp;#10;Next, we will present images. Please indicate whether these are moral, neutral or immoral." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_end">
+        <Param val="&quot;b&quot;, &quot;y&quot;, &quot;g&quot;, &quot;r&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_end" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="pic_stimulus">
+      <ImageComponent name="smid_image">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$image_name" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="smid_image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="6.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="vignette_stimulus">
+      <TextComponent name="test_question">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="test_question" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$vignette_text" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="rating_vignettes">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nNot Morally Wrong&quot;, &quot;4\nExtremely Morally Wrong&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="rating_vignettes" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="8.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <KeyboardComponent name="key_question">
+        <Param val="&quot;b&quot;, &quot;y&quot;, &quot;g&quot;, &quot;r&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_question" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="8.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="Rating">
+      <SliderComponent name="rating_smid">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nMoral&quot;, &quot;5\nImmoral&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="rating_smid" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <KeyboardComponent name="rating_key_smid">
+        <Param val="&quot;b&quot;, &quot;y&quot;, &quot;g&quot;, &quot;r&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="rating_key_smid" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_smd">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_smd" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .2)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="The image portrayed something..." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="fixation_cross_long">
+      <PolygonComponent name="cross_long">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="cross_long" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="6.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="fixation_cross_short">
+      <PolygonComponent name="cross_short">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="cross_short" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="blank_rnd">
+      <CodeComponent name="code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="blank_duration = np.random.uniform(1, 3);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="blank_duration = np.random.uniform(1,3)" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_3">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$blank_duration" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="vignette_break">
+      <CodeComponent name="vignette_pauses">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if vignette_trials.thisN == 0 or (vignette_trials.thisN + 1) % 4 != 0:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if (((vignette_trials.thisN === 0) || (((vignette_trials.thisN + 1) % 4) !== 0))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="vignette_pauses" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="text_5">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_5" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Short Break. When you are ready to continue, indicate that with pressing any key" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param val="&quot;b&quot;, &quot;y&quot;, &quot;g&quot;, &quot;r&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="image_break">
+      <CodeComponent name="image_break_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if image_trials.thisN == 0 or (image_trials.thisN + 1) % 3 != 0:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if (((image_trials.thisN === 0) || (((image_trials.thisN + 1) % 3) !== 0))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="image_break_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="image_break_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="image_break_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Short Break. When you are ready to continue, indicate that with pressing any key" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="image_break_resp">
+        <Param val="&quot;b&quot;, &quot;y&quot;, &quot;g&quot;, &quot;r&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="image_break_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="welcome_screen"/>
+    <Routine name="blank_500"/>
+    <Routine name="instructions_vignette"/>
+    <Routine name="blank_500"/>
+    <LoopInitiator loopType="TrialHandler" name="vignette_trials">
+      <Param name="Selected rows" updates="None" val="$random(12)*120" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="$&quot;vig_text_&quot;+ condition + &quot;.xlsx&quot;" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="vignette_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="vignette_stimulus"/>
+    <Routine name="blank_rnd"/>
+    <Routine name="vignette_break"/>
+    <LoopTerminator name="vignette_trials"/>
+    <Routine name="instructions_SMID"/>
+    <Routine name="blank_500"/>
+    <LoopInitiator loopType="TrialHandler" name="image_trials">
+      <Param name="Selected rows" updates="None" val="$random(12)*120" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'image_id': 0, 'image_name': 'smid/Neutral_Immoral - high arousal4.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 1, 'image_name': 'smid/Purity-Degradation_Moral - low arousal4.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 2, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal1.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 3, 'image_name': 'smid/Neutral_Moral - low arousal1.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 4, 'image_name': 'smid/Purity-Degradation_Moral - low arousal5.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 5, 'image_name': 'smid/Neutral_Immoral - high arousal5.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 6, 'image_name': 'smid/Authority-Subversion_Moral - low arousal5.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 7, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal2.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 8, 'image_name': 'smid/Neutral_Moral - low arousal3.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 9, 'image_name': 'smid/Neutral_Moral - low arousal2.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 10, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal3.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 11, 'image_name': 'smid/Authority-Subversion_Moral - low arousal4.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 12, 'image_name': 'smid/Neutral_Immoral - high arousal2.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 13, 'image_name': 'smid/Purity-Degradation_Moral - low arousal2.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 14, 'image_name': 'smid/Purity-Degradation_Moral - low arousal3.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 15, 'image_name': 'smid/Authority-Subversion_Moral - low arousal1.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 16, 'image_name': 'smid/Neutral_Immoral - high arousal3.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 17, 'image_name': 'smid/Neutral_Immoral - high arousal1.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 18, 'image_name': 'smid/Authority-Subversion_Moral - low arousal3.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 19, 'image_name': 'smid/Purity-Degradation_Moral - low arousal1.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 20, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal4.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 21, 'image_name': 'smid/Neutral_Moral - low arousal5.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 22, 'image_name': 'smid/Neutral_Moral - low arousal4.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 23, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal5.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 24, 'image_name': 'smid/Authority-Subversion_Moral - low arousal2.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 25, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal2.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 26, 'image_name': 'smid/Care-Harm_Moral - high arousal1.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 27, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal2.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 28, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal1.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 29, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal3.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 30, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal3.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 31, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal1.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 32, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal5.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 33, 'image_name': 'smid/Care-Harm_Moral - high arousal2.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 34, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal1.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 35, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal2.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 36, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal3.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 37, 'image_name': 'smid/Care-Harm_Moral - high arousal3.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 38, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal4.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 39, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal4.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 40, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal4.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 41, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal5.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 42, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal1.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 43, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal5.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 44, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal3.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 45, 'image_name': 'smid/Care-Harm_Moral - high arousal4.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 46, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal4.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 47, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal5.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 48, 'image_name': 'smid/Care-Harm_Moral - high arousal5.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 49, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal2.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 50, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal5.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 51, 'image_name': 'smid/Neutral_Immoral - low arousal3.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 52, 'image_name': 'smid/Care-Harm_Moral - low arousal1.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 53, 'image_name': 'smid/Neutral_Immoral - low arousal2.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 54, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal4.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 55, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal5.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 56, 'image_name': 'smid/Care-Harm_Moral - low arousal3.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 57, 'image_name': 'smid/Care-Harm_Moral - low arousal2.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 58, 'image_name': 'smid/Neutral_Immoral - low arousal1.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 59, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal4.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 60, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal3.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 61, 'image_name': 'smid/Neutral_Immoral - low arousal5.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 62, 'image_name': 'smid/Neutral_Immoral - low arousal4.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 63, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal2.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 64, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal1.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 65, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal3.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 66, 'image_name': 'smid/Care-Harm_Moral - low arousal5.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 67, 'image_name': 'smid/Care-Harm_Moral - low arousal4.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 68, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal1.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 69, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal2.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 70, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal1.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 71, 'image_name': 'smid/Care-Harm_Immoral - low arousal5.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 72, 'image_name': 'smid/Authority-Subversion_Moral - high arousal1.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 73, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal2.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 74, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal3.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 75, 'image_name': 'smid/Care-Harm_Immoral - high arousal1.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 76, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal1.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 77, 'image_name': 'smid/Purity-Degradation_Moral - high arousal1.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 78, 'image_name': 'smid/Neutral_Moral - high arousal1.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 79, 'image_name': 'smid/Care-Harm_Immoral - low arousal4.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 80, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal1.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 81, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal3.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 82, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal2.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 83, 'image_name': 'smid/Neutral_Moral - high arousal3.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 84, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal5.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 85, 'image_name': 'smid/Purity-Degradation_Moral - high arousal3.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 86, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal3.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 87, 'image_name': 'smid/Authority-Subversion_Moral - high arousal2.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 88, 'image_name': 'smid/Care-Harm_Immoral - high arousal3.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 89, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal1.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 90, 'image_name': 'smid/Care-Harm_Immoral - high arousal2.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 91, 'image_name': 'smid/Authority-Subversion_Moral - high arousal3.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 92, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal2.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 93, 'image_name': 'smid/Purity-Degradation_Moral - high arousal2.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 94, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal4.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 95, 'image_name': 'smid/Neutral_Moral - high arousal2.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 96, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal2.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 97, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal3.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 98, 'image_name': 'smid/Care-Harm_Immoral - low arousal3.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 99, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal4.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 100, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal5.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 101, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal1.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 102, 'image_name': 'smid/Care-Harm_Immoral - low arousal2.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 103, 'image_name': 'smid/Neutral_Moral - high arousal5.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 104, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal5.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 105, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal4.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 106, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal3.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 107, 'image_name': 'smid/Purity-Degradation_Moral - high arousal5.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 108, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal5.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 109, 'image_name': 'smid/Authority-Subversion_Moral - high arousal4.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 110, 'image_name': 'smid/Care-Harm_Immoral - high arousal5.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 111, 'image_name': 'smid/Care-Harm_Immoral - high arousal4.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 112, 'image_name': 'smid/Authority-Subversion_Moral - high arousal5.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 113, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal4.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 114, 'image_name': 'smid/Purity-Degradation_Moral - high arousal4.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 115, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal2.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 116, 'image_name': 'smid/Care-Harm_Immoral - low arousal1.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 117, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal4.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 118, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal5.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 119, 'image_name': 'smid/Neutral_Moral - high arousal4.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="smid_stimuli.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="image_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="fixation_cross_long"/>
+    <Routine name="pic_stimulus"/>
+    <Routine name="fixation_cross_short"/>
+    <Routine name="Rating"/>
+    <Routine name="image_break"/>
+    <LoopTerminator name="image_trials"/>
+    <Routine name="blank_500"/>
+  </Flow>
+</PsychoPy2experiment>
