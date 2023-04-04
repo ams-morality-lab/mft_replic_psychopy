@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2022.2.5),
-    on Tue Apr  4 21:46:46 2023
+    on Tue Apr  4 21:55:28 2023
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -516,7 +516,7 @@ for thisVignette_trial in vignette_trials:
     continueRoutine = True
     routineForceEnded = False
     # update component parameters for each repeat
-    vignette.setText(english_vignette)
+    vignette.setText(dutch_vignette)
     vignette_slider.reset()
     # Run 'Begin Routine' code from vignette_response
     if vignette_slider.markerPos is None:
