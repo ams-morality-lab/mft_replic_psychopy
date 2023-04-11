@@ -1,0 +1,1309 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2022.2.5">
+  <Settings>
+    <Param val="use prefs" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="{'participant': ''}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1440, 900]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="-1.0000, -1.0000, -1.0000" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="moral_judgements_fMRI" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="exp" valType="code" updates="None" name="logging level"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+  </Settings>
+  <Routines>
+    <Routine name="welcome_screen">
+      <TextComponent name="welcome_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="welcome_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Thank you for participating in this study. It has three parts. Part one begins soon." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="welcome_key">
+        <Param val="&quot;t&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="welcome_key" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="vignette_stimulus">
+      <TextComponent name="vignette">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="vignette" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .2)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$dutch_vignette" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="vignette_slider">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nNiet moreel verkeerd&quot;, &quot;4\nExtreem moreel verkeerd&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="vignette_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <CodeComponent name="vignette_response">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="keys = event.getKeys()&amp;#10;&amp;#10;if len(keys):&amp;#10;    if 'b' in keys:&amp;#10;        vignette_slider.markerPos = 1&amp;#10;    elif 'y' in keys:&amp;#10;        vignette_slider.markerPos = 2&amp;#10;    elif 'g' in keys:&amp;#10;        vignette_slider.markerPos = 3 &amp;#10;    elif 'r' in keys:   &amp;#10;        vignette_slider.markerPos = 4" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys();&amp;#10;if (keys.length) {&amp;#10;    if (_pj.in_es6(&quot;b&quot;, keys)) {&amp;#10;        vignette_slider.markerPos = 1;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;y&quot;, keys)) {&amp;#10;            vignette_slider.markerPos = 2;&amp;#10;        } else {&amp;#10;            if (_pj.in_es6(&quot;g&quot;, keys)) {&amp;#10;                vignette_slider.markerPos = 3;&amp;#10;            } else {&amp;#10;                if (_pj.in_es6(&quot;r&quot;, keys)) {&amp;#10;                    vignette_slider.markerPos = 4;&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="vignette_response" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="vignette_keys">
+        <Param val="'b', 'y','g', 'r'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="vignette_keys" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="all keys" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="fixation_cross_short">
+      <PolygonComponent name="cross_short">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="cross_short" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="vignette_break">
+      <CodeComponent name="vignette_break_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if vignette_trials.thisN == 0 or vignette_trials.thisN == 11 or (vignette_trials.thisN + 1) % 4 != 0:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((((vignette_trials.thisN === 0) || (vignette_trials.thisN === 11)) || (((vignette_trials.thisN + 1) % 4) !== 0))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="vignette_break_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="vignette_break_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="vignette_break_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="7.7" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Wachten om verder te gaan." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="vignette_break_key">
+        <Param val="&quot;t&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="vignette_break_key" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="7.7" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <PolygonComponent name="vignette_cross">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="vignette_cross" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="vignette_blank">
+      <CodeComponent name="choice_duration">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="duration_vignette_blank = np.random.choice([1.4, 4.2, 5.6]);&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="duration_vignette_blank= np.random.choice([1.4,4.2,5.6])" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="choice_duration" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="vignette_blank_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="vignette_blank_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="$duration_vignette_blank" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="smid_rating">
+      <TextComponent name="smid_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="smid_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .2)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Deze afbeelding geeft iets...weer" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="smid_slider">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="3" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nMOREEL&quot;, 2, 3, 4, &quot;5\nIMMOREEL&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="smid_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <CodeComponent name="smid_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((smid_slider.markerPos === null)) {&amp;#10;    smid_slider.markerPos = 2;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if smid_slider.markerPos is None:&amp;#10;    # sets to our first position (or a random number?)&amp;#10;    # and makes marker visible&amp;#10;    smid_slider.markerPos = 2" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="keys = event.getKeys()&amp;#10;&amp;#10;if len(keys):&amp;#10;    if 'b' in keys:&amp;#10;        smid_slider.markerPos -= 1&amp;#10;    elif 'g' in keys:&amp;#10;        smid_slider.markerPos += 1 &amp;#10;        &amp;#10;smid_slider.rating = smid_slider.markerPos" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys();&amp;#10;if (keys.length) {&amp;#10;    if (_pj.in_es6(&quot;b&quot;, keys)) {&amp;#10;        smid_slider.markerPos -= 1;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;g&quot;, keys)) {&amp;#10;            smid_slider.markerPos += 1;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;smid_slider.rating = smid_slider.markerPos;&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="smid_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="smid_key">
+        <Param val="'b', 'g'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="smid_key" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="4.2" valType="code" updates="constant" name="stopVal"/>
+        <Param val="all keys" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="vignette_instructions">
+      <TextComponent name="vignette_instructions_1">
+        <Param val="1.0000, 1.0000, 1.0000" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="vignette_instructions_1" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .2)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$&quot;U staat op het punt een reeks zinnen te zien. \nStel u voor dat u getuige bent van de acties in elk ervan.\nBeoordeel hoe MOREEL VERKEERD elke actie was, met behulp van een 4-puntsschaal variërend van: &quot;" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="vignette_example_slider">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="0" valType="num" updates="constant" name="granularity"/>
+        <Param val="" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nNiet moreel verkeerd&quot;, &quot;4\nExtreem moreel verkeerd&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="vignette_example_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <CodeComponent name="code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="keys = event.getKeys()&amp;#10;&amp;#10;if len(keys):&amp;#10;    if 'b' in keys:&amp;#10;        vignette_example_slider.markerPos = 1&amp;#10;    elif 'y' in keys:&amp;#10;        vignette_example_slider.markerPos = 2&amp;#10;    elif 'g' in keys:&amp;#10;        vignette_example_slider.markerPos = 3 &amp;#10;    elif 'r' in keys:   &amp;#10;        vignette_example_slider.markerPos = 4" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys();&amp;#10;if (keys.length) {&amp;#10;    if (_pj.in_es6(&quot;b&quot;, keys)) {&amp;#10;        vignette_example_slider.markerPos = 1;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;y&quot;, keys)) {&amp;#10;            vignette_example_slider.markerPos = 2;&amp;#10;        } else {&amp;#10;            if (_pj.in_es6(&quot;g&quot;, keys)) {&amp;#10;                vignette_example_slider.markerPos = 3;&amp;#10;            } else {&amp;#10;                if (_pj.in_es6(&quot;r&quot;, keys)) {&amp;#10;                    vignette_example_slider.markerPos = 4;&amp;#10;                }&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="vignette_instructions_key">
+        <Param val="'t'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="vignette_instructions_key" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="vignette_instructions_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="vignette_instructions_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Gebruik uw rechterhand voor de beoordelingen. Elk van uw vingers is gelijk aan één schaalpunt (wijsvinger = één, middelvinger = twee, ringvinger = drie, pink = vier)&amp;#10;&amp;#10;Probeer het maar eens." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="smid_cross">
+      <PolygonComponent name="smid_cross_cross">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="smid_cross_cross" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="2.8" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="smid_instructions">
+      <TextComponent name="smid_instructions_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.035" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="smid_instructions_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .20)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="U staat op het punt een reeks foto’s te zien. Stel u voor dat u getuige bent van de scènes in elk ervan.&amp;#10;&amp;#10;Beoordeel na het bekijken van de afbeelding of het iets MOREEL/LOFWAARDIG - IMMOREEL/VERWIJTBAAR weergeeft, met behulp van een 5-puntsschaal variërend van:" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="smid_instructions_slider">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="3" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nMOREEL&quot;, 2, 3, 4, &quot;5\nIMMOREEL&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="smid_instructions_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <KeyboardComponent name="smid_instructions_key">
+        <Param val="&quot;t&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="smid_instructions_key" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="text_2">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.35)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Gebruik uw rechterhand voor de beoordelingen. Met de wijsvinger kunt u de schuifregelaar naar links verplaatsen. Met de ringvinger kunt u de schuifregelaar naar rechts verplaatsen.&amp;#10;&amp;#10;Probeer het maar eens." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="code_2">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="keys = event.getKeys()&amp;#10;&amp;#10;if len(keys):&amp;#10;    if 'b' in keys:&amp;#10;        smid_instructions_slider.markerPos -= 1&amp;#10;    elif 'g' in keys:&amp;#10;        smid_instructions_slider.markerPos += 1 &amp;#10;        " valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys();&amp;#10;if (keys.length) {&amp;#10;    if (_pj.in_es6(&quot;b&quot;, keys)) {&amp;#10;        smid_instructions_slider.markerPos -= 1;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;g&quot;, keys)) {&amp;#10;            smid_instructions_slider.markerPos += 1;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_2" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="clip_instructions">
+      <TextComponent name="clip_instructions_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="clip_instructions_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .15)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Nu ziet u de drie nieuwsfragmenten over verschillende onderwerpen. Geef na het bekijken van elk fragment aan of je het zou delen op sociale media met behulp van een 5-puntsschaal variërend van:" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="clip_instructions_slider">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="3" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nHelemaal niet&quot;, 2, 3, 4, &quot;5\nHeel erg&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="clip_instructions_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.15)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <CodeComponent name="clip_instructions_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="keys = event.getKeys()&amp;#10;&amp;#10;if len(keys):&amp;#10;    if 'b' in keys:&amp;#10;        clip_instructions_slider.markerPos -= 1&amp;#10;    elif 'g' in keys:&amp;#10;        clip_instructions_slider.markerPos += 1 &amp;#10;" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys();&amp;#10;if (keys.length) {&amp;#10;    if (_pj.in_es6(&quot;b&quot;, keys)) {&amp;#10;        clip_instructions_slider.markerPos -= 1;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;g&quot;, keys)) {&amp;#10;            clip_instructions_slider.markerPos += 1;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="clip_instructions_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_resp">
+        <Param val="'t'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="clip_stimulus">
+      <MovieComponent name="newsclip">
+        <Param val="False" valType="bool" updates="None" name="No audio"/>
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="ffpyplayer" valType="str" updates="None" name="backend"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="False" valType="bool" updates="None" name="loop"/>
+        <Param val="$clip_name" valType="file" updates="set every repeat" name="movie"/>
+        <Param val="newsclip" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="[1280,720]" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="condition" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="pix" valType="str" updates="None" name="units"/>
+        <Param val="1" valType="num" updates="None" name="volume"/>
+      </MovieComponent>
+    </Routine>
+    <Routine name="smid_stimulus">
+      <ImageComponent name="smid_image">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$smid_name" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="smid_image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5.6" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="smid_break">
+      <CodeComponent name="smid_break_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if smid_trials.thisN == 0 or smid_trials.thisN == 11 or (smid_trials.thisN + 1) % 3 != 0:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((((smid_trials.thisN === 0) || (smid_trials.thisN === 11)) || (((smid_trials.thisN + 1) % 3) !== 0))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="smid_break_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="smid_break_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="smid_break_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="7.7" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Wachten om verder te gaan." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="smid_break_key">
+        <Param val="&quot;t&quot;" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="smid_break_key" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="7.7" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="nothing" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <PolygonComponent name="smid_break_cross">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="smid_break_cross" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7.7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="clip_rating">
+      <TextComponent name="clip_text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="clip_text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, .2)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Ik zou dit fragment delen door deze te plaatsen op sociale media (Facebook, Twitter, etc.)…" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SliderComponent name="clip_slider">
+        <Param val="White" valType="color" updates="constant" name="borderColor"/>
+        <Param val="LightGray" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="Red" valType="color" updates="constant" name="fillColor"/>
+        <Param val="False" valType="bool" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="1" valType="num" updates="constant" name="granularity"/>
+        <Param val="3" valType="code" updates="None" name="initVal"/>
+        <Param val="(&quot;1\nHelemaal niet&quot;, 2, 3, 4, &quot;5\nHeel erg&quot;)" valType="list" updates="constant" name="labels"/>
+        <Param val="0.03" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="clip_slider" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, -.05)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="constant" name="readOnly"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.8, 0.1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="constant" name="storeHistory"/>
+        <Param val="True" valType="bool" updates="constant" name="storeRating"/>
+        <Param val="False" valType="bool" updates="constant" name="storeRatingTime"/>
+        <Param val="()" valType="list" updates="constant" name="styleTweaks"/>
+        <Param val="rating" valType="str" updates="constant" name="styles"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="(1, 2, 3, 4, 5)" valType="list" updates="constant" name="ticks"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+      </SliderComponent>
+      <CodeComponent name="clip_code">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="if ((clip_slider.markerPos === null)) {&amp;#10;    clip_slider.markerPos = 2;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if clip_slider.markerPos is None:&amp;#10;    # sets to our first position (or a random number?)&amp;#10;    # and makes marker visible&amp;#10;    clip_slider.markerPos = 2" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="keys = event.getKeys()&amp;#10;&amp;#10;if len(keys):&amp;#10;    if 'b' in keys:&amp;#10;        clip_slider.markerPos -= 1&amp;#10;    elif 'g' in keys:&amp;#10;        clip_slider.markerPos += 1 &amp;#10;        &amp;#10;clip_slider.rating= clip_slider.markerPos" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="var _pj;&amp;#10;function _pj_snippets(container) {&amp;#10;    function in_es6(left, right) {&amp;#10;        if (((right instanceof Array) || ((typeof right) === &quot;string&quot;))) {&amp;#10;            return (right.indexOf(left) &gt; (- 1));&amp;#10;        } else {&amp;#10;            if (((right instanceof Map) || (right instanceof Set) || (right instanceof WeakMap) || (right instanceof WeakSet))) {&amp;#10;                return right.has(left);&amp;#10;            } else {&amp;#10;                return (left in right);&amp;#10;            }&amp;#10;        }&amp;#10;    }&amp;#10;    container[&quot;in_es6&quot;] = in_es6;&amp;#10;    return container;&amp;#10;}&amp;#10;_pj = {};&amp;#10;_pj_snippets(_pj);&amp;#10;keys = psychoJS.eventManager.getKeys();&amp;#10;if (keys.length) {&amp;#10;    if (_pj.in_es6(&quot;b&quot;, keys)) {&amp;#10;        clip_slider.markerPos -= 1;&amp;#10;    } else {&amp;#10;        if (_pj.in_es6(&quot;g&quot;, keys)) {&amp;#10;            clip_slider.markerPos += 1;&amp;#10;        }&amp;#10;    }&amp;#10;}&amp;#10;clip_slider.rating = clip_slider.markerPos;&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="clip_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="clip_key">
+        <Param val="'b', 'g'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="clip_key" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="7" valType="code" updates="constant" name="stopVal"/>
+        <Param val="all keys" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="End_Note"/>
+    <Routine name="end_note">
+      <TextComponent name="text">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="30" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Bedankt voor uw deelname aan het onderzoek. Even geduld, we helpen u uit de scanner." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param val="'t'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="30" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="tail">
+      <PolygonComponent name="tail_cross">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="tail_cross" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15.4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="tail_vignette_break">
+      <CodeComponent name="code_3">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if vignette_trials.thisN == 0 or vignette_trials.thisN == 11 or (vignette_trials.thisN + 1) % 4 != 0:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((((vignette_trials.thisN === 0) || (vignette_trials.thisN === 11)) || (((vignette_trials.thisN + 1) % 4) !== 0))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_3" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <PolygonComponent name="cross_vignette_trials">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="cross_vignette_trials" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15.4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+    <Routine name="tail_smid_break">
+      <CodeComponent name="code_4">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
+        <Param val="if smid_trials.thisN == 0 or smid_trials.thisN == 11 or (smid_trials.thisN + 1) % 3 != 0:&amp;#10;    continueRoutine = False" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="if ((((smid_trials.thisN === 0) || (smid_trials.thisN === 11)) || (((smid_trials.thisN + 1) % 3) !== 0))) {&amp;#10;    continueRoutine = false;&amp;#10;}&amp;#10;" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="code_4" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <PolygonComponent name="cross_tail_smid">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="white" valType="color" updates="constant" name="fillColor"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="white" valType="color" updates="constant" name="lineColor"/>
+        <Param val="1" valType="num" updates="constant" name="lineWidth"/>
+        <Param val="4" valType="int" updates="constant" name="nVertices"/>
+        <Param val="cross_tail_smid" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="cross" valType="str" updates="None" name="shape"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="15.4" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="list" updates="constant" name="vertices"/>
+      </PolygonComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="vignette_instructions"/>
+    <Routine name="tail"/>
+    <LoopInitiator loopType="TrialHandler" name="vignette_trials">
+      <Param name="Selected rows" updates="None" val="$np.random.choice(120,12,replace = False)" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'number': 0, 'english_vignette': &quot;You see a staff member talking loudly and interrupting the mayor's speech to the public.&quot;, 'dutch_vignette': 'U ziet een medewerker luid praten en de toespraak van de burgemeester onderbreken.'}, {'number': 81, 'english_vignette': 'You see a teenage girl coming home late and ignoring her parents strict curfew.', 'dutch_vignette': 'U ziet een tienermeisje laat thuiskomen en de strikte avondklok van haar ouders negeren.'}, {'number': 80, 'english_vignette': 'You see a boy turning up the TV as his father talks about his military service.', 'dutch_vignette': 'U ziet een jongen de tv aanzetten terwijl zijn vader vertelt over zijn militaire dienst.'}, {'number': 79, 'english_vignette': 'You see a boy spray-painting anarchy symbols on the side of the police station.', 'dutch_vignette': 'U ziet een jongen anarchie symbolen verfspuiten aan de zijkant van het politiebureau.'}, {'number': 77, 'english_vignette': 'You see someone reading the ending of a spy novel before reading the beginning.', 'dutch_vignette': 'U ziet iemand het einde van een spionage boek lezen voordat hij het begin leest.'}, {'number': 76, 'english_vignette': 'You see a class president saying on TV that her rival college is a better school.', 'dutch_vignette': 'U ziet een klassenvertegenwoordiger op tv zeggen dat haar rivaliserende middelbare school een betere school is.'}, {'number': 75, 'english_vignette': 'You see a man staying inside his home with the shades drawn on a rare sunny day.', 'dutch_vignette': 'U ziet een man in zijn huis blijven met de gordijnen gesloten op een zeldzame zonnige dag.'}, {'number': 73, 'english_vignette': 'You see a boy setting a series of traps to kill stray cats in his neighborhood.', 'dutch_vignette': 'U ziet een jongen een reeks vallen zetten om zwerfkatten in zijn buurt te doden.'}, {'number': 72, 'english_vignette': 'You see a US swimmer cheering as a Chinese foe beats his teammate to win the gold.', 'dutch_vignette': 'U ziet een Nederlandse zwemmer juichen als een Chinese tegenstander zijn teamgenoot verslaat en goud wint.'}, {'number': 70, 'english_vignette': 'You see a man lashing his pony with a whip for breaking loose from its pen.', 'dutch_vignette': 'U ziet een man zijn paard slaan met een zweep voor het losbreken uit zijn weide.'}, {'number': 69, 'english_vignette': 'You see a boy telling a woman that she looks just like her overweight bulldog.', 'dutch_vignette': 'U ziet een jongen tegen een vrouw zetten dat ze precies op haar buldog met overgewicht lijkt.'}, {'number': 82, 'english_vignette': 'You see a woman spanking her child with a spatula for getting bad grades in school.', 'dutch_vignette': 'U ziet een vrouw die haar kind een pak slaag geeft met een spatel vanwege slechte cijfers op school.'}, {'number': 68, 'english_vignette': 'You see a girl telling her classmate that she looks like she has gained weight.', 'dutch_vignette': 'U ziet een meisje tegen haar klasgenoot zeggen dat ze eruitziet alsof ze is aangekomen.'}, {'number': 64, 'english_vignette': 'You see a mother forcing her daughter to enroll as a pre-med student in college.', 'dutch_vignette': 'U ziet een moeder die haar dochter dwingt zich in te schrijven voor een medische opleiding op de universiteit.'}, {'number': 63, 'english_vignette': 'You see a man telling his fiancee that she has to switch to his political party.', 'dutch_vignette': 'U ziet een man tegen zijn verloofde zeggen dat ze moet overstappen naar zijn politieke partij.'}, {'number': 62, 'english_vignette': 'You see a teacher publicly saying she hopes another school wins the math contest.', 'dutch_vignette': 'U ziet een leraar publiekelijk zeggen dat ze hoopt dat een andere school de wiskundewedstrijd wint.'}, {'number': 61, 'english_vignette': 'You see a teaching assistant talking back to the teacher in front of the classroom.', 'dutch_vignette': 'U ziet een onderwijsassistent voor de klas voor zichzelf opkomen tegen de leraar.'}, {'number': 60, 'english_vignette': 'You see a mayor saying that the neighboring town is a much better town.', 'dutch_vignette': 'U ziet een burgemeester zeggen dat de aangrenzende stad een veel betere stad is.'}, {'number': 118, 'english_vignette': 'You see a girl shooting geese repeatedly with a pellet gun out in the woods.', 'dutch_vignette': 'U ziet een meisje herhaaldelijk op ganzen schieten met een kogelgeweer in het bos.'}, {'number': 58, 'english_vignette': 'You see a zoo trainer jabbing a dolphin to get it to entertain his customers.', 'dutch_vignette': 'U ziet een dierentrainer in de dierentuin een dolfijn porren om het dier aan te sporen zijn klanten te vermaken.'}, {'number': 57, 'english_vignette': 'You see a woman slapping another woman who she is arguing with in the parking lot.', 'dutch_vignette': 'U ziet een vrouw een andere vrouw slaan met wie ze ruzie heeft op de parkeerplaats.'}, {'number': 56, 'english_vignette': &quot;You see a boss pressuring employees to buy goods from her family's general store.&quot;, 'dutch_vignette': 'U ziet een baas die werknemers onder druk zet om spullen te kopen in haar familiewinkel.'}, {'number': 55, 'english_vignette': 'You see a man telling a woman that her painting looks like it was done by children.', 'dutch_vignette': 'U ziet een man tegen een vrouw zeggen dat haar schilderij eruitziet alsof het door kinderen is gemaakt.'}, {'number': 66, 'english_vignette': 'You see a girl asking for allowance even though her brother did her chores for her.', 'dutch_vignette': 'U ziet een meisje om een geldbeloning vragen terwijl haar broer haar klusjes voor haar deed.'}, {'number': 83, 'english_vignette': &quot;You see a girl laughing when she realizes her friend's dad is the janitor.&quot;, 'dutch_vignette': 'U ziet een meisje lachen als ze zich realiseert dat de vader van haar vriend de conciërge is.'}, {'number': 84, 'english_vignette': 'You see a woman watching a game on television in black-and-white instead of color.', 'dutch_vignette': 'U ziet een vrouw een wedstrijd op televisie kijken in zwart-wit in plaats van kleur.'}, {'number': 85, 'english_vignette': 'You see a mother telling her son that she is going to choose all of his friends.', 'dutch_vignette': 'U ziet een moeder die haar zoon vertelt dat ze al zijn vrienden gaat kiezen.'}, {'number': 116, 'english_vignette': 'You see a woman getting hired only because her father is close friends with the boss.', 'dutch_vignette': 'U ziet een vrouw alleen aangenomen worden omdat haar vader goede vrienden is met de baas.'}, {'number': 112, 'english_vignette': &quot;You see a manager coercing her employees into eating at her brother's diner.&quot;, 'dutch_vignette': 'U ziet een manager haar werknemers dwingen om te eten bij het restaurant van haar broer.'}, {'number': 110, 'english_vignette': &quot;You see a man searching through the trash to find women's discarded underwear.&quot;, 'dutch_vignette': 'U ziet een man in de vuilnisbak zoeken naar weggegooid damesondergoed.'}, {'number': 109, 'english_vignette': 'You see a woman continuing to wear a large sun hat inside her apartment complex.', 'dutch_vignette': 'U ziet een vrouw een grote zonnehoed blijven dragen in haar appartementencomplex.'}, {'number': 108, 'english_vignette': 'You see a man having sex with a frozen chicken before cooking it for dinner.', 'dutch_vignette': 'U ziet een man seks hebben met een bevroren kip voordat hij het voor het avondeten kookt.'}, {'number': 106, 'english_vignette': 'You see an employee at a morgue eating his pepperoni pizza off of a dead body.', 'dutch_vignette': 'U ziet een werknemer in een mortuarium zijn pepperoni pizza van een lijk eten.'}, {'number': 105, 'english_vignette': 'You see an intern disobeying an order to dress professionally and comb his hair.', 'dutch_vignette': 'U ziet een stagiair die een bevel om zich professioneel te kleden en zijn haar te kammen negeert.'}, {'number': 104, 'english_vignette': 'You see a family eating the carcass of their pet dog that had been run over.', 'dutch_vignette': 'U ziet een familie het karkas eten van hun aangereden hond.'}, {'number': 103, 'english_vignette': &quot;You see a Hollywood star agreeing with a foreign dictator's denunciation of the US.&quot;, 'dutch_vignette': 'U ziet een filmster instemmen met de aanklacht tegen Nederland door een buitenlandse dictator.'}, {'number': 102, 'english_vignette': 'You see a man quickly canceling a blind date as soon as he sees the woman.', 'dutch_vignette': 'U ziet een man snel een blind date afzeggen zodra hij de vrouw ziet.'}, {'number': 101, 'english_vignette': 'You see a homosexual in a gay bar offering sex to anyone who buys him a drink.', 'dutch_vignette': 'U ziet een homo in een homobar die seks aanbiedt aan iedereen die voor hem een drankje koopt.'}, {'number': 100, 'english_vignette': 'You see a man eating a bowl cereal in the morning with water instead of milk.', 'dutch_vignette': 'U ziet een man ’s ochtends een kom ontbijtgranen eten met water in plaats van melk.'}, {'number': 99, 'english_vignette': 'You see a man walking down a dark hallway while still wearing his sunglasses.', 'dutch_vignette': 'U ziet een man door een donkere gang lopen terwijl hij zijn zonnebril nog op heeft.'}, {'number': 97, 'english_vignette': 'You see someone at the school gym lifting free weights in nice business clothes.', 'dutch_vignette': 'U ziet iemand in de sportschool van de school gewichten tillen in zijn mooie, zakelijke kleding.'}, {'number': 96, 'english_vignette': 'You see a girl saying that another girl is too ugly to be a varsity cheerleader.', 'dutch_vignette': 'U ziet een meisje zeggen dat een ander meisje te lelijk is om cheerleader te zijn.'}, {'number': 95, 'english_vignette': 'You see a man loudly telling his wife that the dinner she cooked tastes awful.', 'dutch_vignette': 'U ziet een man met verheven stem tegen zijn vrouw zeggen dat het avondeten dat ze kookte vreselijk smaakt.'}, {'number': 93, 'english_vignette': 'You see someone leaving his dog outside in the rain after it dug in the trash.', 'dutch_vignette': 'U ziet iemand zijn hond buiten zetten in de regen nadat hij in de vuilnisbak heeft gegraven.'}, {'number': 92, 'english_vignette': 'You see a mayor trying to ban people from hugging and kissing in public in his city.', 'dutch_vignette': 'U ziet een burgemeester die mensen in zijn stad probeert te verbieden om in het openbaar te knuffelen en te zoenen.'}, {'number': 91, 'english_vignette': 'You see a politician using federal tax dollars to build an extension on his home.', 'dutch_vignette': 'U zie een politicus die belastingsgeld gebruikt om een aanbouw op zijn huis te bouwen.'}, {'number': 90, 'english_vignette': 'You see a man leaving his family business to go work for their main competitor.', 'dutch_vignette': 'U ziet een man zijn familiebedrijf verlaten om voor hun belangrijkste concurrent te gaan werken.'}, {'number': 88, 'english_vignette': 'You see an employee lying about how many hours she worked during the week.', 'dutch_vignette': 'U ziet een medewerker liegen over hoeveel uur ze in de week heeft gewerkt.'}, {'number': 87, 'english_vignette': &quot;You see a student copying a classmate's answer sheet on a makeup final exam.&quot;, 'dutch_vignette': 'U ziet een leerling het antwoordblad van een klasgenoot overnemen op een herkansing van het eindexamen.'}, {'number': 86, 'english_vignette': 'You see a girl throwing her hot coffee on a woman who is dating her ex-boyfriend.', 'dutch_vignette': 'U ziet een meisje haar hete koffie gooien naar een vrouw die aan het daten is met haar ex-vriendje.'}, {'number': 53, 'english_vignette': 'You see a college student drinking until she vomits on herself and falls asleep.', 'dutch_vignette': 'U ziet een student drinken tot ze over zichzelf braakt en in slaap valt.'}, {'number': 52, 'english_vignette': 'You see a man blocking his wife from leaving home or interacting with others.', 'dutch_vignette': 'U ziet een man die zijn vrouw blokkeert om het huis uit te gaan of om met anderen om te gaan.'}, {'number': 119, 'english_vignette': 'You see a teenage boy chuckling at an amputee he passes by while on the subway.', 'dutch_vignette': 'U ziet een tienerjongen grinniken om een'}, {'number': 50, 'english_vignette': 'You see a runner taking a shortcut on the course during the marathon in order to win.', 'dutch_vignette': 'U ziet een hardloper tijdens de marathon een kortere weg over de route nemen om te winnen.'}, {'number': 27, 'english_vignette': 'You see an American telling foreigners that the US is an evil force in the world.', 'dutch_vignette': 'U ziet een Nederlander tegen buitenlanders zeggen dat Nederland een kwaadaardige kracht in de wereld is'}, {'number': 25, 'english_vignette': 'You see a group of women having a long and loud conversation during a church sermon.', 'dutch_vignette': 'U ziet een groep vrouwen een lang en luid gesprek voeren tijdens een kerkdienst.'}, {'number': 51, 'english_vignette': 'You see a woman answering a phone call with the word goodbye instead of hello.', 'dutch_vignette': 'U ziet een vrouw die een telefoontje opneemt met het woord ‘tot ziens’ inplaats van ‘hallo’.'}, {'number': 22, 'english_vignette': 'You see a girl and her sister making out with each other just for practice.', 'dutch_vignette': 'U ziet een meisje en haar zus met elkaar zoenen om te oefenen.'}, {'number': 21, 'english_vignette': 'You see a woman throwing her cat across the room for scratching the furniture.', 'dutch_vignette': 'U ziet een vrouw haar kat door de kamer gooien voor het krabben aan de meubels.'}, {'number': 20, 'english_vignette': &quot;You see a teacher hitting a student's hand with a ruler for falling asleep in class.&quot;, 'dutch_vignette': 'U ziet een leraar die een leerling op de hand slaat met een liniaal voor het in slaap vallen in de klas.'}, {'number': 17, 'english_vignette': 'You see a man putting ketchup all over his chicken Caesar salad while at lunch.', 'dutch_vignette': 'U ziet een man ketchup over zijn Caesar salade met kip doen tijdens de lunch.'}, {'number': 16, 'english_vignette': 'You see a girl laughing at another student forgetting her lines at a school play.', 'dutch_vignette': 'U ziet een meisje lachen om een andere student die haar tekst vergeet bij een schooltoneelstuk.'}, {'number': 15, 'english_vignette': 'You see a student stating that her professor is a fool during an afternoon class.', 'dutch_vignette': 'U ziet een student die zegt dat haar professor een dwaas is tijdens een middagles.'}, {'number': 12, 'english_vignette': 'You see a woman drinking her entire cup of coffee using a stirring spoon.', 'dutch_vignette': 'U ziet een vrouw haar hele kopje koffie drinken met een roerlepel.'}, {'number': 10, 'english_vignette': 'You see a woman having intimate relations with a recently deceased loved one.', 'dutch_vignette': 'U ziet een vrouw die intieme relaties heeft met een onlangs overleden geliefde.'}, {'number': 9, 'english_vignette': 'You see a boy skipping to the front of the line because his friend is an employee.', 'dutch_vignette': 'U ziet een jongen vooraan in de rij stappen omdat zijn vriend een werknemer is.'}, {'number': 8, 'english_vignette': 'You see a wife hitting her husband on the side of his head for coming home late.', 'dutch_vignette': 'U ziet een vrouw haar man op de zijkant van zijn hoofd slaan omdat hij laat thuiskomt.'}, {'number': 7, 'english_vignette': 'You see a woman refusing to stand when the judge walks into the courtroom.', 'dutch_vignette': 'U ziet een vrouw die weigert op te staan als de rechter de rechtszaal binnenloopt.'}, {'number': 6, 'english_vignette': 'You see a woman eating dessert before her main entree arrives on the table.', 'dutch_vignette': 'U ziet een vrouw een toetje eten voordat haar hoofdgerecht op tafel komt.'}, {'number': 4, 'english_vignette': 'You see a teenager urinating in the wave pool at a crowded amusement park.', 'dutch_vignette': 'U ziet een tiener urineren in het golfslagbad van een druk pretpark.'}, {'number': 3, 'english_vignette': 'You see a tenant bribing a landlord to be the first to get their apartment repainted.', 'dutch_vignette': 'U ziet een huurder een huisbaas omkopen om als eerste zijn appartement te laten schilderen.'}, {'number': 2, 'english_vignette': 'You see a teacher ordering a student to get a normal haircut before coming to class.', 'dutch_vignette': 'U ziet een leraar die een leerling opdracht geeft om een normaal kapsel te krijgen voordat hij naar de les komt.'}, {'number': 1, 'english_vignette': 'You see a former Secretary of State publicly giving up his citizenship to the US.', 'dutch_vignette': 'U ziet een voormalig staatssecretaris publiekelijk zijn staatsburgerschap aan Nederland afstaan.'}, {'number': 31, 'english_vignette': 'You see a teenager at a cafeteria forcing a younger student to pay for her lunch.', 'dutch_vignette': 'U ziet een tiener in de kantine een jongere student dwingen haar lunch te betalen.'}, {'number': 32, 'english_vignette': 'You see a referee intentionally making bad calls that help his favored team win.', 'dutch_vignette': 'U ziet een scheidsrechter opzettelijk slechte beslissingen nemen die zijn favoriete team helpen winnen.'}, {'number': 23, 'english_vignette': 'You see a teenage girl wearing a long trench coat on a hot summer afternoon.', 'dutch_vignette': 'U ziet een tienermeisje in een lange jas op een hete zomermiddag'}, {'number': 39, 'english_vignette': 'You see a girl telling a boy that his older brother is much more attractive than him.', 'dutch_vignette': 'U ziet een meisje tegen een jongen zeggen dat zijn oudere broer veel aantrekkelijker is dan hij.'}, {'number': 46, 'english_vignette': &quot;You see a teenage male in a dorm bathroom secretly using a stranger's toothbrush.&quot;, 'dutch_vignette': 'U ziet een tienerjongen in een gedeelde badkamer stiekem de tandenborstel van een vreemde gebruiken.'}, {'number': 49, 'english_vignette': 'You see an employee joking with competitors about how bad his company did last year.', 'dutch_vignette': 'U ziet een werknemer grappen maken met concurrenten over hoe slecht zijn bedrijf het vorig jaar heeft gedaan.'}, {'number': 43, 'english_vignette': 'You see a teenage girl openly staring at a disfigured woman as she walks past.', 'dutch_vignette': 'U ziet een tienermeisje openlijk staren naar een misvormde vrouw terwijl ze langsloopt.'}, {'number': 42, 'english_vignette': 'You see an employee trying to undermine all of her boss’ ideas in front of others.', 'dutch_vignette': 'U ziet een werknemer die alle ideeën van haar baas probeert te ondermijnen in het bijzijn van anderen.'}, {'number': 41, 'english_vignette': 'You see two first cousins getting married to each other in an elaborate wedding.', 'dutch_vignette': 'U ziet een neef en nicht met elkaar trouwen in een uitgebreide bruiloft.'}, {'number': 33, 'english_vignette': 'You see someone using an old rotary phone and refusing to go buy a new one.', 'dutch_vignette': 'U ziet iemand een oude draaitelefoon gebruiken en weigeren een nieuwe te kopen.'}, {'number': 40, 'english_vignette': &quot;You see a student getting an A on a group project when he didn't do his part.&quot;, 'dutch_vignette': 'U ziet een student een 10 krijgen voor een groepsproject terwijl hij zijn deel niet deed.'}, {'number': 47, 'english_vignette': 'You see a woman swerving her car in order to intentionally run over a squirrel.', 'dutch_vignette': 'U ziet een vrouw met haar auto uitwijken om opzettelijk een eekhoorn aan te rijden.'}, {'number': 38, 'english_vignette': 'You see a boy placing a thumbtack sticking up on the chair of another student.', 'dutch_vignette': 'U ziet een jongen een punaise op de stoel van een andere leerling plaatsen.'}, {'number': 37, 'english_vignette': &quot;You see a head cheerleader booing her high school's team during a homecoming game.&quot;, 'dutch_vignette': 'U ziet een hoofd-cheerleader het team van haar middelbare school uitjoelen tijdens een reünie-wedstrijd.'}, {'number': 48, 'english_vignette': 'You see a woman using a fork to eat a bowl of vanilla ice cream and marshmallows.', 'dutch_vignette': 'U ziet een vrouw een vork gebruiken om een bak vanille-ijs en marshmallows te eten.'}, {'number': 34, 'english_vignette': &quot;You see the coach's wife sponsoring a bake sale for her husband's rival team.&quot;, 'dutch_vignette': 'U ziet de vrouw van de coach een koekjes verkoop sponsoren voor het rivaliserende team van haar man.'}, {'number': 35, 'english_vignette': 'You see a man laughing at a disabled co-worker while at an office softball game.', 'dutch_vignette': 'U ziet een man lachen om een gehandicapte collega tijdens een kantoor softbal wedstrijd.'}, {'number': 117, 'english_vignette': 'You see the US Ambassador joking in Great Britain about the stupidity of Americans.', 'dutch_vignette': 'U ziet de Nederlandse ambassadeur in Groot-Brittannië grappen maken over de domheid van Nederlanders.'}, {'number': 115, 'english_vignette': &quot;You see a coach celebrating with the opposing team's players who just won the game.&quot;, 'dutch_vignette': 'U ziet een coach vieren met de spelers van het andere team die net de wedstrijd hebben gewonnen.'}, {'number': 29, 'english_vignette': 'You see a drunk elderly man offering to have oral sex with anyone in the bar.', 'dutch_vignette': 'U ziet een dronken oudere man aanbieden om orale seks te hebben met wie dan ook in de bar.'}, {'number': 78, 'english_vignette': 'You see a very drunk woman making out with multiple strangers on the city bus.', 'dutch_vignette': 'U ziet een erg dronken vrouw zoenen met meerdere vreemden in de stadsbus.'}, {'number': 36, 'english_vignette': 'You see a boy making fun of his brother for getting dumped by his girlfriend.', 'dutch_vignette': 'U ziet een jongen die zijn broer uitlacht omdat hij gedumpt is door zijn vriendin.'}, {'number': 24, 'english_vignette': 'You see a man turn his back and walk away while his boss questions his work.', 'dutch_vignette': 'U ziet een man de rug toekeren en weglopen terwijl zijn baas zijn werk in twijfel trekt.'}, {'number': 26, 'english_vignette': 'You see a man forbidding his wife to wear clothing that he has not first approved.', 'dutch_vignette': 'U ziet een man die zijn vrouw verbiedt kleding te dragen die hij niet eerst heeft goedgekeurd.'}, {'number': 45, 'english_vignette': 'You see a man in a bar using his phone to watch people having sex with animals.', 'dutch_vignette': 'U ziet een man in een bar die zijn telefoon gebruikt om te kijken naar mensen die seks hebben met dieren.'}, {'number': 111, 'english_vignette': 'You see a man telling his girlfriend that she must convert to his religion.', 'dutch_vignette': 'U ziet een man tegen zijn vriendin zeggen dat ze zich tot zijn religie moet bekeren.'}, {'number': 107, 'english_vignette': 'You see a girl taking all the Halloween candy from a bowl, leaving none for others.', 'dutch_vignette': 'U ziet een meisje alle Sint Maarten-snoepjes uit een kom halen en niets voor anderen achterlaten.'}, {'number': 114, 'english_vignette': 'You see a girl ignoring her fathers orders by taking the car after her curfew.', 'dutch_vignette': 'U ziet een meisje de bevelen van haar vader negeren door de auto te pakken na haar avondklok.'}, {'number': 54, 'english_vignette': 'You see a girl repeatedly interrupting her teacher as he explains a new concept.', 'dutch_vignette': 'U ziet een meisje haar leraar herhaaldelijk onderbreken terwijl hij een nieuw concept uitlegt.'}, {'number': 28, 'english_vignette': 'You see a professor giving a bad grade to a student just because he dislikes him.', 'dutch_vignette': 'U ziet een professor een slecht cijfer geven aan een student alleen omdat hij een hekel aan hem heeft.'}, {'number': 113, 'english_vignette': 'You see a public leader on TV trying to ban the wearing of hooded sweatshirts.', 'dutch_vignette': 'U ziet een publiekelijke leider op tv die het dragen van sweaters met een capuchon probeert te verbieden.'}, {'number': 13, 'english_vignette': 'You see a judge taking on a criminal case although he is friends with the defendant.', 'dutch_vignette': 'U ziet een rechter die een strafzaak aanneemt terwijl hij bevriend is met de beklaagde.'}, {'number': 94, 'english_vignette': 'You see a player publicly yelling at his soccer coach during a playoff game.', 'dutch_vignette': 'U ziet een speler publiekelijk schreeuwen tegen zijn voetbalcoach tijdens een playoff-wedstrijd.'}, {'number': 71, 'english_vignette': &quot;You see a star player ignoring her coach's order to come to the bench during a game.&quot;, 'dutch_vignette': 'U ziet een sterspeler het bevel van haar coach negeren om tijdens een wedstrijd naar de bank te komen.'}, {'number': 89, 'english_vignette': &quot;You see a college president singing a rival school's fight song during a pep rally.&quot;, 'dutch_vignette': 'U ziet een universiteitspresident het strijdlied van een rivaliserende school zingen tijdens een peptalk.'}, {'number': 59, 'english_vignette': 'You see a father requiring his son to become a commercial airline pilot like him.', 'dutch_vignette': 'U ziet een vader die van zijn zoon eist dat hij net als hij een commerciële luchtvaartpiloot wordt.'}, {'number': 11, 'english_vignette': 'You see a father requiring his son to take up the family restaurant business.', 'dutch_vignette': 'U ziet een vader die van zijn zoon eist om het familie restaurant bedrijf op zich te nemen.'}, {'number': 18, 'english_vignette': 'You see a story about a remote tribe eating the flesh of their deceased members.', 'dutch_vignette': 'U ziet een verhaal over een afgelegen stam die het vlees eet van hun overleden leden.'}, {'number': 74, 'english_vignette': 'You see a soccer player pretending to be seriously fouled by an opposing player.', 'dutch_vignette': 'U ziet een voetbalspeler doen alsof hij ernstig is pijn gedaan door een tegenstander.'}, {'number': 14, 'english_vignette': 'You see a former US General saying publicly he would never buy any American product.', 'dutch_vignette': 'U ziet een voormalig Nederlandse generaal die publiekelijk zegt dat hij nooit een Nederlands product zou kopen.'}, {'number': 5, 'english_vignette': 'You see a woman pressuring her daughter to become a famous evening news anchor.', 'dutch_vignette': 'U ziet een vrouw die haar dochter onder druk zet om een beroemd avondnieuwslezer te worden.'}, {'number': 44, 'english_vignette': 'You see a woman commenting out loud about how fat another woman looks in her jeans.', 'dutch_vignette': 'U ziet een vrouw die hardop commentaar geeft over hoe dik een andere vrouw eruitziet in haar spijkerbroek.'}, {'number': 19, 'english_vignette': 'You see a woman clearly avoiding sitting next to an obese woman on the bus.', 'dutch_vignette': 'U ziet een vrouw duidelijk vermijden om naast een gezette vrouw in de bus te gaan zitten.'}, {'number': 98, 'english_vignette': 'You see a woman throwing a stapler at her colleague who is snoring during her talk.', 'dutch_vignette': 'U ziet een vrouw een nietmachine naar haar collega gooien die tijdens haar praatje staat te snurken.'}, {'number': 30, 'english_vignette': &quot;You see a woman snatching away her dog's food for making a mess in the living room.&quot;, 'dutch_vignette': 'U ziet een vrouw het voer van haar hond wegrukken omdat hij er een zooitje van maakt in de woonkamer.'}, {'number': 67, 'english_vignette': 'You see a woman lying about the number of vacation days she has taken at work.', 'dutch_vignette': 'U ziet een vrouw liegen over het aantal vakantiedagen dat ze op haar werk heeft genomen.'}, {'number': 65, 'english_vignette': 'You see someone driving around in a dirty car that has not been washed recently.', 'dutch_vignette': 'U ziet iemand rondrijden in een vieze auto die al een tijd niet is gewassen.'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="vig_text_english_dutch.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="vignette_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="vignette_stimulus"/>
+    <Routine name="vignette_blank"/>
+    <Routine name="vignette_break"/>
+    <Routine name="tail_vignette_break"/>
+    <LoopTerminator name="vignette_trials"/>
+    <Routine name="smid_instructions"/>
+    <Routine name="tail"/>
+    <LoopInitiator loopType="TrialHandler" name="smid_trials">
+      <Param name="Selected rows" updates="None" val="$np.random.choice(120,12,replace = False)" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'image_id': 0, 'image_name': 'smid/Neutral_Immoral - high arousal4.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 1, 'image_name': 'smid/Purity-Degradation_Moral - low arousal4.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 2, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal1.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 3, 'image_name': 'smid/Neutral_Moral - low arousal1.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 4, 'image_name': 'smid/Purity-Degradation_Moral - low arousal5.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 5, 'image_name': 'smid/Neutral_Immoral - high arousal5.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 6, 'image_name': 'smid/Authority-Subversion_Moral - low arousal5.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 7, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal2.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 8, 'image_name': 'smid/Neutral_Moral - low arousal3.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 9, 'image_name': 'smid/Neutral_Moral - low arousal2.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 10, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal3.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 11, 'image_name': 'smid/Authority-Subversion_Moral - low arousal4.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 12, 'image_name': 'smid/Neutral_Immoral - high arousal2.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 13, 'image_name': 'smid/Purity-Degradation_Moral - low arousal2.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 14, 'image_name': 'smid/Purity-Degradation_Moral - low arousal3.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 15, 'image_name': 'smid/Authority-Subversion_Moral - low arousal1.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 16, 'image_name': 'smid/Neutral_Immoral - high arousal3.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 17, 'image_name': 'smid/Neutral_Immoral - high arousal1.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 18, 'image_name': 'smid/Authority-Subversion_Moral - low arousal3.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 19, 'image_name': 'smid/Purity-Degradation_Moral - low arousal1.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 20, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal4.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 21, 'image_name': 'smid/Neutral_Moral - low arousal5.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 22, 'image_name': 'smid/Neutral_Moral - low arousal4.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 23, 'image_name': 'smid/Loyalty-Betrayal_Moral - low arousal5.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 24, 'image_name': 'smid/Authority-Subversion_Moral - low arousal2.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 25, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal2.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 26, 'image_name': 'smid/Care-Harm_Moral - high arousal1.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 27, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal2.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 28, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal1.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 29, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal3.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 30, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal3.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 31, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal1.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 32, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal5.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 33, 'image_name': 'smid/Care-Harm_Moral - high arousal2.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 34, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal1.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 35, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal2.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 36, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal3.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 37, 'image_name': 'smid/Care-Harm_Moral - high arousal3.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 38, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal4.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 39, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal4.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 40, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal4.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 41, 'image_name': 'smid/Fairness-Cheating_Immoral - low arousal5.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 42, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal1.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 43, 'image_name': 'smid/Authority-Subversion_Immoral - high arousal5.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 44, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal3.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 45, 'image_name': 'smid/Care-Harm_Moral - high arousal4.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 46, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal4.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 47, 'image_name': 'smid/Loyalty-Betrayal_Immoral - low arousal5.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 48, 'image_name': 'smid/Care-Harm_Moral - high arousal5.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 49, 'image_name': 'smid/Purity-Degradation_Immoral - high arousal2.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 50, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal5.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 51, 'image_name': 'smid/Neutral_Immoral - low arousal3.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 52, 'image_name': 'smid/Care-Harm_Moral - low arousal1.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 53, 'image_name': 'smid/Neutral_Immoral - low arousal2.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 54, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal4.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 55, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal5.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 56, 'image_name': 'smid/Care-Harm_Moral - low arousal3.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 57, 'image_name': 'smid/Care-Harm_Moral - low arousal2.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 58, 'image_name': 'smid/Neutral_Immoral - low arousal1.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 59, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal4.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 60, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal3.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 61, 'image_name': 'smid/Neutral_Immoral - low arousal5.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 62, 'image_name': 'smid/Neutral_Immoral - low arousal4.jpg', 'moral_domain': 'Neutral', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 63, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal2.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 64, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal1.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 65, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal3.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 66, 'image_name': 'smid/Care-Harm_Moral - low arousal5.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 67, 'image_name': 'smid/Care-Harm_Moral - low arousal4.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 68, 'image_name': 'smid/Fairness-Cheating_Moral - low arousal1.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 69, 'image_name': 'smid/Purity-Degradation_Immoral - low arousal2.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 70, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal1.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 71, 'image_name': 'smid/Care-Harm_Immoral - low arousal5.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 72, 'image_name': 'smid/Authority-Subversion_Moral - high arousal1.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 73, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal2.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 74, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal3.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 75, 'image_name': 'smid/Care-Harm_Immoral - high arousal1.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 76, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal1.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 77, 'image_name': 'smid/Purity-Degradation_Moral - high arousal1.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 78, 'image_name': 'smid/Neutral_Moral - high arousal1.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 79, 'image_name': 'smid/Care-Harm_Immoral - low arousal4.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 80, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal1.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 81, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal3.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 82, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal2.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 83, 'image_name': 'smid/Neutral_Moral - high arousal3.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 84, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal5.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 85, 'image_name': 'smid/Purity-Degradation_Moral - high arousal3.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 86, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal3.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 87, 'image_name': 'smid/Authority-Subversion_Moral - high arousal2.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 88, 'image_name': 'smid/Care-Harm_Immoral - high arousal3.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 89, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal1.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 90, 'image_name': 'smid/Care-Harm_Immoral - high arousal2.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 91, 'image_name': 'smid/Authority-Subversion_Moral - high arousal3.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 92, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal2.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 93, 'image_name': 'smid/Purity-Degradation_Moral - high arousal2.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 94, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal4.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 95, 'image_name': 'smid/Neutral_Moral - high arousal2.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 96, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal2.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 97, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal3.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 98, 'image_name': 'smid/Care-Harm_Immoral - low arousal3.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 3}, {'image_id': 99, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal4.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 4}, {'image_id': 100, 'image_name': 'smid/Authority-Subversion_Immoral - low arousal5.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 5}, {'image_id': 101, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal1.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 1}, {'image_id': 102, 'image_name': 'smid/Care-Harm_Immoral - low arousal2.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 2}, {'image_id': 103, 'image_name': 'smid/Neutral_Moral - high arousal5.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 104, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal5.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 105, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal4.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 106, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal3.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 3}, {'image_id': 107, 'image_name': 'smid/Purity-Degradation_Moral - high arousal5.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 108, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal5.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 109, 'image_name': 'smid/Authority-Subversion_Moral - high arousal4.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 110, 'image_name': 'smid/Care-Harm_Immoral - high arousal5.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 111, 'image_name': 'smid/Care-Harm_Immoral - high arousal4.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 112, 'image_name': 'smid/Authority-Subversion_Moral - high arousal5.jpg', 'moral_domain': 'Authority-Subversion', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 113, 'image_name': 'smid/Fairness-Cheating_Immoral - high arousal4.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 114, 'image_name': 'smid/Purity-Degradation_Moral - high arousal4.jpg', 'moral_domain': 'Purity-Degradation', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 115, 'image_name': 'smid/Fairness-Cheating_Moral - high arousal2.jpg', 'moral_domain': 'Fairness-Cheating', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 2}, {'image_id': 116, 'image_name': 'smid/Care-Harm_Immoral - low arousal1.jpg', 'moral_domain': 'Care-Harm', 'valence': 'Immoral', 'arousal': 'low arousal', 'image_number': 1}, {'image_id': 117, 'image_name': 'smid/Loyalty-Betrayal_Immoral - high arousal4.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Immoral', 'arousal': 'high arousal', 'image_number': 4}, {'image_id': 118, 'image_name': 'smid/Loyalty-Betrayal_Moral - high arousal5.jpg', 'moral_domain': 'Loyalty-Betrayal', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 5}, {'image_id': 119, 'image_name': 'smid/Neutral_Moral - high arousal4.jpg', 'moral_domain': 'Neutral', 'valence': 'Moral', 'arousal': 'high arousal', 'image_number': 4}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="smid_stimuli.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="smid_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="smid_cross"/>
+    <Routine name="smid_stimulus"/>
+    <Routine name="smid_rating"/>
+    <Routine name="smid_break"/>
+    <Routine name="tail_smid_break"/>
+    <LoopTerminator name="smid_trials"/>
+    <Routine name="clip_instructions"/>
+    <LoopInitiator loopType="TrialHandler" name="clip_trials">
+      <Param name="Selected rows" updates="None" val="np.random.choice(3,3) + [0, 3, 6]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'clip_id': '1a', 'clip_name': 'newsclips/1a.mp4', 'topic': 'immigration', 'frame': 'fear'}, {'clip_id': '1b', 'clip_name': 'newsclips/1b.mp4', 'topic': 'immigration', 'frame': 'blame'}, {'clip_id': '1c', 'clip_name': 'newsclips/1c.mp4', 'topic': 'immigration', 'frame': 'neutral'}, {'clip_id': '2a', 'clip_name': 'newsclips/2a.mp4', 'topic': 'climate', 'frame': 'fear'}, {'clip_id': '2b', 'clip_name': 'newsclips/2b.mp4', 'topic': 'climate', 'frame': 'blame'}, {'clip_id': '2c', 'clip_name': 'newsclips/2c.mp4', 'topic': 'climate', 'frame': 'neutral'}, {'clip_id': '3a', 'clip_name': 'newsclips/3a.mp4', 'topic': 'healthcare', 'frame': 'fear'}, {'clip_id': '3b', 'clip_name': 'newsclips/3b.mp4', 'topic': 'healthcare', 'frame': 'blame'}, {'clip_id': '3c', 'clip_name': 'newsclips/3c.mp4', 'topic': 'healthcare', 'frame': 'neutral'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="clips_stimuli.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="clip_trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="tail"/>
+    <Routine name="clip_stimulus"/>
+    <Routine name="clip_rating"/>
+    <LoopTerminator name="clip_trials"/>
+    <Routine name="end_note"/>
+  </Flow>
+</PsychoPy2experiment>
