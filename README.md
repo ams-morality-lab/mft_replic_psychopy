@@ -4,4 +4,4 @@ For more information on the paradigm read the [Study Guide](https://docs.google.
 
 Naming Conventions: 700 vs. 1400 stands for the TR's we used to calculate the repetition times; EN, NL for the language and the suffix 'comp' stands for the computer friendly version, where 'hjkl' will be used instead of the letters the button box hands in ('bygr' in the BSL lab). You can continue texts which would be ended by the fMRI operator, through pressing 't'. 
 
-If you just want to check the paradigm, you can shorten it through slicing the result of the pseudoRand function in the 'Selected rows' field of the loop (e.g. v_pseudoRand("vig_text_english_dutch.xlsx")\[0:3\].
+If you just want to check the paradigm, you can shorten it through slicing the result of the pseudoRand function in the 'Selected rows' field of the loop (e.g. v_pseudoRand("vig_text_english_dutch.xlsx")\[0:3\]).
